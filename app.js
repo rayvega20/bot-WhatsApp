@@ -10,7 +10,7 @@ const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswe
     [
         '📄 las categorias 2003 hasta el 2010 entrenan MARTES-JUEVES',
         'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
+        '\n*2* Para siguiente paso s.',
     ],
     null,
     null,
