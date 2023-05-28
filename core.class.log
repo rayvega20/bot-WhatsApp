@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51964827591@s.whatsapp.net',
+    remoteJid: '51977730952@s.whatsapp.net',
     fromMe: false,
-    id: '3A58634A9FCF1A5CCF7F',
+    id: '068B2D4446477A0B8E97134AD46AB715',
     participant: undefined
   },
-  messageTimestamp: 1684974125,
-  pushName: 'Patrick Valera',
+  messageTimestamp: 1684976751,
+  pushName: 'Jαԋαყɾα 🦋',
   message: Message {
     conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
@@ -15,5 +15,47 @@
     }
   },
   body: 'Hola',
-  from: '51964827591'
+  from: '51977730952'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51977730952@s.whatsapp.net',
+    fromMe: false,
+    id: 'FEED7EFB262B15DA0F6AD93C5047C95F',
+    participant: undefined
+  },
+  messageTimestamp: 1684976844,
+  pushName: 'Jαԋαყɾα 🦋',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '👍🏼',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '51977730952'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51977730952@s.whatsapp.net',
+    fromMe: false,
+    id: '0932E4D84EA2A4CA281DA5E44C89B88A',
+    participant: undefined
+  },
+  messageTimestamp: 1684977073,
+  pushName: 'Jαԋαყɾα 🦋',
+  message: Message {
+    conversation: 'Ok',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ok',
+  from: '51977730952'
 }

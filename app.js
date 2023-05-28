@@ -42,7 +42,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
 )
 
 const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
+    ['🤪 siguenos en FB', 'https://www.facebook.com/MLsport100', '\n*2* Para siguiente paso.'],
     null,
     null,
     [flowSecundario]
