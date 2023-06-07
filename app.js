@@ -6,7 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
+const flowDocs = addKeyword(['info', 'informacion', 'información']).addAnswer(
     [
         '📄 las categorias 2003 hasta el 2010 entrenan MARTES-JUEVES',
         'https://bot-whatsapp.netlify.app/',
@@ -28,12 +28,14 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [flowSecundario]
 )
 
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
+const flowGracias = addKeyword(['sedes', 'grac']).addAnswer(
     [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://goo.gl/maps/A4o6CSgnmU9h9FrSA?coh=178571&entry=tt',
-        '[*buymeacoffee*] https://goo.gl/maps/ouQYf4NvpiJ6xWRg9?coh=178571&entry=tt',
-        '[*patreon*] https://www.patreon.com/leifermendez',
+        '🚀 Estas son nuestras sedes de entrenamiento',
+        '[*campo-picigol*]' ,
+        'https://goo.gl/maps/A4o6CSgnmU9h9FrSA?coh=178571&entry=tt',
+        '[*campo-torreblanca*] ',
+        'https://goo.gl/maps/ouQYf4NvpiJ6xWRg9?coh=178571&entry=tt',
+        '[*llamanos*] 987654321',
         '\n*2* Para siguiente paso.',
     ],
     null,
@@ -41,7 +43,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [flowSecundario]
 )
 
-const flowDiscord = addKeyword(['discord']).addAnswer(
+const flowDiscord = addKeyword(['page']).addAnswer(
     ['🤪 siguenos en FB', 'https://www.facebook.com/MLsport100', '\n*2* Para siguiente paso.'],
     null,
     null,
@@ -53,13 +55,13 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     .addAnswer(
         [
             'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la informacion de matricula',
-            '👉 *gracias*  para ver nuestras sedes',
-            '👉 *discord* para ver nuestra pagina de FACEBOOK',
+            '👉 *info* para ver la informacion de matricula',
+            '👉 *sedes*  para ver nuestras sedes',
+            '👉 *page* para ver nuestra pagina de FACEBOOK',
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowInfo, flowSedes, flowTuto, flowPage]
     )
 
 const main = async () => {
