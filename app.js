@@ -4,17 +4,29 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
+const flowSecundario = addKeyword(['2', 'para numero de celular']).addAnswer(['Llamanaos a 916854121'])
 
-const flowDocs = addKeyword(['info', 'informacion', 'información']).addAnswer(
+  .addAnswer(["\n*3* Menú principal."],
+  { capture: true },
+  (ctx, flow ) => {
+    if (ctx.body === '3') {
+        flow.gotoFlow(flowPrincipal);// Devolver al flujo anterior
+    } 
+
+  },
+  );
+
+const flowInfo = addKeyword(['info', 'informacion', 'información']).addAnswer(
     [
-        '📄 las categorias 2003 hasta el 2010 entrenan MARTES-JUEVES',
+        '📄 las categorias 2003 hasta el 2010, entrenan MARTES-JUEVES',
+        '📄 las categorias 2011 hasta el 2019, entrenan LUNES-MIERCOLES-VIERNES',
+        '📄 futbol mujeres la categoria ES LIBRE, entrenan MARTES-JUEVES',
         'https://bot-whatsapp.netlify.app/',
         '\n*2* Para siguiente paso s.',
     ],
     null,
     null,
-    [flowSecundario]
+    [flowSecundario]    
 )
 
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
@@ -28,14 +40,20 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [flowSecundario]
 )
 
-const flowGracias = addKeyword(['sedes', 'grac']).addAnswer(
+const flowSedes = addKeyword(['sedes', 'grac'])
+.addAnswer('🚀 Estas son nuestras sedes de entrenamiento')
+.addAnswer('*CAMPO-PISCIGOL*')
+.addAnswer('https://goo.gl/maps/A4o6CSgnmU9h9FrSA?coh=178571&entry=tt')
+.addAnswer('*CAMPO-TORREBLANCA*')
+.addAnswer(
+    'https://goo.gl/maps/ouQYf4NvpiJ6xWRg9?coh=178571&entry=tt')
+
+.addAnswer(
     [
-        '🚀 Estas son nuestras sedes de entrenamiento',
-        '[*campo-picigol*]' ,
-        'https://goo.gl/maps/A4o6CSgnmU9h9FrSA?coh=178571&entry=tt',
-        '[*campo-torreblanca*] ',
-        'https://goo.gl/maps/ouQYf4NvpiJ6xWRg9?coh=178571&entry=tt',
-        '[*llamanos*] 987654321',
+       
+       
+        
+        '*llamanos* 987654321',
         '\n*2* Para siguiente paso.',
     ],
     null,
@@ -43,7 +61,7 @@ const flowGracias = addKeyword(['sedes', 'grac']).addAnswer(
     [flowSecundario]
 )
 
-const flowDiscord = addKeyword(['page']).addAnswer(
+const flowPage = addKeyword(['page']).addAnswer(
     ['🤪 siguenos en FB', 'https://www.facebook.com/MLsport100', '\n*2* Para siguiente paso.'],
     null,
     null,
@@ -51,10 +69,10 @@ const flowDiscord = addKeyword(['page']).addAnswer(
 )
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot Ray* de la academia deportivas MLs')
+    .addAnswer('🙌 Hola bienvenido a la academia deportivas MLs')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
+            'porfavor diganos ¿en que le podemos ayudar?',
             '👉 *info* para ver la informacion de matricula',
             '👉 *sedes*  para ver nuestras sedes',
             '👉 *page* para ver nuestra pagina de FACEBOOK',

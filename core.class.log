@@ -2,10 +2,10 @@
   key: {
     remoteJid: '51999041626@s.whatsapp.net',
     fromMe: false,
-    id: 'B6BFDED046D5ED6556CEA34005F5B096',
+    id: 'F0C6A21AA083D18E36F4110B9E4ABA4C',
     participant: undefined
   },
-  messageTimestamp: 1685987968,
+  messageTimestamp: 1686186502,
   pushName: 'lulu',
   message: Message {
     conversation: 'Hola',
@@ -21,29 +21,29 @@
   key: {
     remoteJid: '51999041626@s.whatsapp.net',
     fromMe: false,
-    id: '49ECC6316D597833FCCA0F74B1FA9EC0',
+    id: '70EDF1F69D26B6ECD7883E6374F6B3BE',
     participant: undefined
   },
-  messageTimestamp: 1685987992,
+  messageTimestamp: 1686186505,
   pushName: 'lulu',
   message: Message {
-    conversation: 'Doc',
+    conversation: 'Sedes',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Doc',
+  body: 'Sedes',
   from: '51999041626'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51999041626@s.whatsapp.net',
     fromMe: false,
-    id: 'F53AFEAF0FB30490E2CF6C424CD1C604',
+    id: 'E8EC53A3DEC116B7B946700BEA7AE228',
     participant: undefined
   },
-  messageTimestamp: 1685988001,
+  messageTimestamp: 1686186513,
   pushName: 'lulu',
   message: Message {
     conversation: '2',
@@ -59,132 +59,18 @@
   key: {
     remoteJid: '51999041626@s.whatsapp.net',
     fromMe: false,
-    id: '5841100A5664BC8AB65A530EF3D94B5A',
+    id: 'E20BED0F82FD2D55FE37DC10F7FDCEE9',
     participant: undefined
   },
-  messageTimestamp: 1685988006,
+  messageTimestamp: 1686186517,
   pushName: 'lulu',
   message: Message {
-    conversation: 'Hola',
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: 'B5E2C01BE1755AE8591B57E5AC0B17E7',
-    participant: undefined
-  },
-  messageTimestamp: 1685988012,
-  pushName: 'lulu',
-  message: Message {
-    conversation: 'Gracias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: '32CFCE37328BA7511F22527AFBF88BC7',
-    participant: undefined
-  },
-  messageTimestamp: 1685988040,
-  pushName: 'lulu',
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: 'FD5B4F629812FDF2DB195BECDA1B32D0',
-    participant: undefined
-  },
-  messageTimestamp: 1685988045,
-  pushName: 'lulu',
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: '978837C3CCBB38BB625392A910F890EE',
-    participant: undefined
-  },
-  messageTimestamp: 1685988053,
-  pushName: 'lulu',
-  message: Message {
-    conversation: 'Discord',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Discord',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: '11C268A9D21BDE198373B3AD32F6E0D2',
-    participant: undefined
-  },
-  messageTimestamp: 1685997797,
-  pushName: 'lulu',
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '51999041626'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51999041626@s.whatsapp.net',
-    fromMe: false,
-    id: 'F57292D58608A013273383DA9A911CE7',
-    participant: undefined
-  },
-  messageTimestamp: 1685997801,
-  pushName: 'lulu',
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
+  body: '3',
   from: '51999041626'
 }
