@@ -2,6 +2,7 @@ ProyectoWhatsApp
 
 Club ML Sport
 Bienvenido al repositorio de la academia deportiva de futbol ML Sport. En este proyecto, implementamos un bot de WhatsApp utilizando la librería @bot-whatsapp/bot para brindar información y servicios relacionados con nuestra academia.
+![image](https://github.com/rayvega20/bot-WhatsApp/assets/90875621/586b7112-07a3-4ef2-ab25-0359a8daac00)
 
 Descripción del proyecto
 
